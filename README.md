@@ -13,7 +13,7 @@
 
 ### [Try the live demo →](https://kdb-quarters-demo.vercel.app/login/)
 
-[The problem](#the-problem) · [The solution](#the-solution) · [Screenshots](#screenshots) · [Results](#results) · [Tech stack](#tech-stack)
+[The problem](#the-problem) · [The solution](#the-solution) · [Results](#results) · [Screenshots](#screenshots) · [Tech stack](#tech-stack)
 
 </div>
 
@@ -47,6 +47,12 @@ A web app with two sides: one for the managers who run the houses and one for th
 - Pay a charge by uploading a GCash receipt, or mark it as paid in cash for a manager to confirm.
 
 **Billing that runs itself.** Weekly, half-month and monthly plans are paid in advance. A move-in that isn't on the 1st or the 15th is prorated up to the next one. A scheduled job runs every day and issues the coming charges, so no one calculates rent by hand.
+
+## Results
+
+- Replaced the notebook and the group chat with one production app that tracks rooms, stays and payments for **58 beds across 2 staff houses**.
+- **Ended manual rent calculation:** a daily scheduled job issues advance charges for weekly, half-month and monthly plans and prorates mid-period move-ins.
+- **Room assignment takes one drag** on the floor map, which checks capacity and occupancy rules as you drag and previews the first charge.
 
 ## Screenshots
 
@@ -86,12 +92,6 @@ Built for the phone: the next payment with GCash or cash, the payment history, a
     <td width="33%"><img src="docs/screenshots/officer-room.png" alt="Officer room"></td>
   </tr>
 </table>
-
-## Results
-
-- Replaced the notebook and the group chat with one production app that tracks rooms, stays and payments for **58 beds across 2 staff houses**.
-- **Ended manual rent calculation:** a daily scheduled job issues advance charges for weekly, half-month and monthly plans and prorates mid-period move-ins.
-- **Room assignment takes one drag** on the floor map, which checks capacity and occupancy rules as you drag and previews the first charge.
 
 ## Tech stack
 
