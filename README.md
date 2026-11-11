@@ -13,7 +13,7 @@
 
 ### [Try the live demo →](https://kdb-quarters-demo.vercel.app/login/)
 
-[The problem](#the-problem) · [The solution](#the-solution) · [Results](#results) · [Tech stack](#tech-stack)
+[The problem](#the-problem) · [The solution](#the-solution) · [Screenshots](#screenshots) · [Results](#results) · [Tech stack](#tech-stack)
 
 </div>
 
@@ -47,6 +47,45 @@ A web app with two sides: one for the managers who run the houses and one for th
 - Pay a charge by uploading a GCash receipt, or mark it as paid in cash for a manager to confirm.
 
 **Billing that runs itself.** Weekly, half-month and monthly plans are paid in advance. A move-in that isn't on the 1st or the 15th is prorated up to the next one. A scheduled job runs every day and issues the coming charges, so no one calculates rent by hand.
+
+## Screenshots
+
+**Sign-in.** Managers and officers sign in with Google.
+
+<img src="docs/screenshots/login.png" alt="Sign-in screen with Continue with Google" width="100%">
+
+### Manager
+
+**Dashboard.** Beds filled, collections for the cycle, late payers, what's waiting for confirmation, a floor map preview and a six-month income chart.
+
+<img src="docs/screenshots/manager-dashboard.png" alt="Manager dashboard" width="100%">
+
+**Room assignment.** New sign-ups on the left; drag one onto a free bed on the floor plan.
+
+<img src="docs/screenshots/manager-rooms.png" alt="Assign rooms floor plan" width="100%">
+
+<table>
+  <tr>
+    <td width="50%"><b>Occupants</b>, with filters for late payers, pending and moved out<br><br><img src="docs/screenshots/manager-occupants.png" alt="Occupants list"></td>
+    <td width="50%"><b>Approvals</b> for new sign-ups and badge claims<br><br><img src="docs/screenshots/manager-approvals.png" alt="Approvals"></td>
+  </tr>
+  <tr>
+    <td width="50%"><b>Payment confirmation</b>: confirm or reject GCash receipts and cash payments<br><br><img src="docs/screenshots/manager-payment-confirmation.png" alt="Payment confirmation"></td>
+    <td width="50%"><b>Payment history</b> by month<br><br><img src="docs/screenshots/manager-payment-history.png" alt="Payment history"></td>
+  </tr>
+</table>
+
+### Officer
+
+Built for the phone: the next payment with GCash or cash, the payment history, and their room.
+
+<table>
+  <tr>
+    <td width="33%"><img src="docs/screenshots/officer-home.png" alt="Officer home"></td>
+    <td width="33%"><img src="docs/screenshots/officer-payments.png" alt="Officer payment history"></td>
+    <td width="33%"><img src="docs/screenshots/officer-room.png" alt="Officer room"></td>
+  </tr>
+</table>
 
 ## Results
 
