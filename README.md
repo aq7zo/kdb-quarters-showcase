@@ -13,7 +13,7 @@
 
 ### [Try the live demo →](https://kdb-quarters-demo.vercel.app/login/)
 
-[The problem](#the-problem) · [The solution](#the-solution) · [Results](#results) · [Screenshots](#screenshots) · [Tech stack](#tech-stack)
+[The problem](#the-problem) · [The solution](#the-solution) · [The results](#the-results) · [Screenshots](#screenshots) · [Tech stack](#tech-stack)
 
 </div>
 
@@ -48,7 +48,7 @@ A web app with two sides: one for the managers who run the houses and one for th
 
 **Billing that runs itself.** Weekly, half-month and monthly plans are paid in advance. A move-in that isn't on the 1st or the 15th is prorated up to the next one. A scheduled job runs every day and issues the coming charges, so no one calculates rent by hand.
 
-## Results
+## The results
 
 - Replaced the notebook and the group chat with one production app that tracks rooms, stays and payments for **58 beds across 2 staff houses**.
 - **Ended manual rent calculation:** a daily scheduled job issues advance charges for weekly, half-month and monthly plans and prorates mid-period move-ins.
