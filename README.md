@@ -18,7 +18,7 @@
 </div>
 
 > [!NOTE]
-> KDB Quarters is a **solo project** I built for my family's business, KDB Property Management. The production app and its source code are private. The [live demo](https://kdb-quarters-demo.vercel.app/login/) runs the same screens with made-up people and a fictional floor map, so you can sign in as a manager or an officer without an account.
+> KDB Quarters is a **solo project** I built for my family's business, KDB Property Management. The production app and its source code are private. The [live demo](https://kdb-quarters-demo.vercel.app/login/) runs the same screens with made-up people and a fictional floor map, so you can sign in as a manager or an officer without an account. The [screenshots](#screenshots) below come from it too, apart from the sign-in screen, which is the production app's.
 
 ## The problem
 
